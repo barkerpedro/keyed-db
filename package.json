@@ -1,0 +1,31 @@
+{
+  "name": "@barkerpedro/keyed-db",
+  "version": "0.2.4",
+  "description": "Lightweight library to store an in-memory DB",
+  "homepage": "https://github.com/barkerpedro/keyed-db",
+  "main": "lib/KeyedDB.js",
+  "types": "lib/KeyedDB.d.ts",
+  "keywords": [
+    "db",
+    "key"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "test": "mocha --timeout 60000 -r ts-node/register src/Tests.ts",
+    "build": "tsc"
+  },
+  "author": "Barker Pedro",
+  "license": "MIT",
+  "files": [
+    "lib/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.16.0",
+    "assert": "^2.0.0",
+    "mocha": "^10.2.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
