@@ -1,6 +1,6 @@
 {
   "name": "@barkerpedro/keyed-db",
-  "version": "0.2.5",
+  "version": "0.2.4",
   "description": "Lightweight library to store an in-memory DB",
   "homepage": "https://github.com/barkerpedro/keyed-db",
   "main": "lib/KeyedDB.js",
